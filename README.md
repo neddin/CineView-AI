@@ -14,7 +14,7 @@ Designed for filmmakers, editors, and content creators, CineView AI extracts ult
 
 ![](capture/home.png)
 ## Key Features
-![](capture/1.png)
+![](capture/1.png))
 ![](capture/2.png)
 - Automated Shot List: Generates frame-accurate spotting sheets including Start/End time, Duration, Shot Size, Camera Movement, and Description.
 ![](capture/3.png)
