@@ -13,15 +13,19 @@ CineView AI is an advanced automated video breakdown tool powered by Google Gemi
 Designed for filmmakers, editors, and content creators, CineView AI extracts ultra-dense frame sequences from video files to reconstruct scenes, detect cuts, and generate detailed production documents. It runs entirely in the browser (client-side), ensuring your video files are processed locally and never uploaded to a server (only frames are sent to the API for analysis).
 
 ![](capture/home.png)
+
 ## Key Features
-![](capture/1.png))
+![](capture/1.png)
 ![](capture/2.png)
 - Automated Shot List: Generates frame-accurate spotting sheets including Start/End time, Duration, Shot Size, Camera Movement, and Description.
+  
 ![](capture/3.png)
 ![](capture/4.png)
 - Color Script Generation: Visualizes the emotional arc of your video by extracting and displaying dominant color palettes for every shot.
+  
 ![](capture/5.png)
 - Reverse Screenplay: Automatically reverse-engineers a standard industry-format screenplay from the visual action and audio cues in the video.
+  
 ![](capture/6.png)
 - AI Poster Generator: Uses Gemini Vision to identify the main character and scene context, generating high-quality cinematic posters.
 - Bilingual Support: Fully supports English and Chinese (Simplified) interfaces and analysis output.
