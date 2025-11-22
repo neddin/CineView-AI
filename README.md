@@ -4,6 +4,13 @@
 
 <a name="english"></a>
 
+
+## Update
+Version Update: v1.0.1
+- Fixes: Added the missing index.tsx entry script to resolve the blank screen issue on startup.
+- Configuration: Added a CSP meta tag to relax resource restrictions and improve compatibility.
+- Chore: Minified inline CSS within the HTML header.
+
 ## Introduction
 
 https://www.youtube.com/watch?v=k6EtLYL9Zrc
@@ -100,11 +107,18 @@ npm run dev
 
 # CineView AI (中文介绍)
 
+## 版本更新：
+v1.0.1
+- 修复 (Fixes)： 补充缺失的 index.tsx 入口脚本，解决应用启动白屏问题。
+- 配置 (Config)： 新增 CSP 策略，放宽资源加载限制以适配开发环境。
+- 优化 (Chore)： 压缩 HTML 头部的内联 CSS 样式代码。
+
 ## 项目介绍
 
 CineView AI 是一款基于 Google Gemini 2.5 多模态大模型的自动化视频分析工具。它能够将原始视频文件在几分钟内转化为专业的影视制作资产。
 
 该项目专为电影制作人、剪辑师和内容创作者设计。通过提取视频中的高密度关键帧，CineView AI 能够重建场景、识别剪辑点，并生成详细的制作文档。项目完全在浏览器端运行（客户端），确保您的视频文件仅在本地处理，不会被上传到任何服务器（仅发送截图帧给 API 用于分析）。
+
 
 ## 核心功能
 
@@ -168,7 +182,10 @@ npm run dev
 
 ---
 
-## 贡献者 Eddy & Hulk
+## 贡献者 Eddy & Hulk & 温暖机器
+## 感谢 Contra Kisa Ac.DaVinci Byron 
+## Special Thanks 实验编程 故事接龙 
+
 ## 联系我们 eddyse@gmail.com
 
 ## License
