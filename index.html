@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';">
+    
     <title>CineView AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
-        darkMode: 'class', // Enable class-based dark mode
+        darkMode: 'class',
         theme: {
           extend: {
             fontFamily: {
@@ -17,18 +19,17 @@
               mono: ['JetBrains Mono', 'monospace'],
             },
             colors: {
-              // STRICT AI STUDIO / MATERIAL 3 NEUTRAL PALETTE OVERRIDE
               gray: {
                 50: '#F9FAFB',
                 100: '#F3F4F6',
                 200: '#E5E7EB',
                 300: '#D1D5DB',
                 400: '#9CA3AF',
-                500: '#8E918F', // Neutral Text
-                600: '#444746', // Neutral Borders
-                700: '#2C2D2E', // Surface High / Headers
-                800: '#1E1F20', // Surface Container (Cards)
-                900: '#131314', // Main Background
+                500: '#8E918F',
+                600: '#444746',
+                700: '#2C2D2E',
+                800: '#1E1F20',
+                900: '#131314',
                 950: '#0B0C0C',
               },
               brand: {
@@ -47,68 +48,33 @@
       }
     </script>
     <style>
-      body {
-        /* Default to light, App.tsx handles the switch */
-        background-color: #f9fafb; 
-        color: #111827; 
-      }
-      /* Dark mode override handled by Tailwind 'dark:' classes, 
-         but we set defaults here for smoothness */
-      .dark body {
-        background-color: #1e1f20; /* Updated to match UploadBox dark bg */
-        color: #e3e3e3;
-      }
-
-      /* Custom scrollbar for table */
-      ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #94a3b8;
-      }
-      
-      /* Dark mode scrollbar - Neutral Gray */
-      .dark ::-webkit-scrollbar-thumb {
-        background: #444746;
-        border: 1px solid #1e1f20;
-      }
-      .dark ::-webkit-scrollbar-thumb:hover {
-        background: #5e5e5e;
-      }
-
-      .paper-texture {
-        background-color: #ffffff;
-        /* Removed dots for clean look */
-      }
-      
-      /* Dark mode paper - Clean dark background */
-      .paper-texture-dark {
-        background-color: #1e1f20;
-        /* Removed dots for clean look */
-      }
+      body { background-color: #f9fafb; color: #111827; }
+      .dark body { background-color: #1e1f20; color: #e3e3e3; }
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+      .dark ::-webkit-scrollbar-thumb { background: #444746; border: 1px solid #1e1f20; }
+      .dark ::-webkit-scrollbar-thumb:hover { background: #5e5e5e; }
+      .paper-texture { background-color: #ffffff; }
+      .paper-texture-dark { background-color: #1e1f20; }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+        "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0"
+      }
+    }
+    </script>
+  </head>
   <body>
     <div id="root"></div>
+    
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
