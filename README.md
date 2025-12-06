@@ -183,8 +183,8 @@ npm run dev
 ---
 
 ## 贡献者 Eddy & Hulk & 温暖机器
-- 感谢 Contra Kisa Ac.DaVinci Byron 
-- Special Thanks 实验编程 故事接龙 
+- 感谢 Rao Anyi Contra KiSA Ac.DaVinci Byron 
+- Special Thanks MMLab@HKUST 实验编程 故事接龙 
 - 联系我们 eddyse@gmail.com
 
 ## License
